@@ -52,6 +52,9 @@ spec:
             httpGet:
               path: /readyz
               port: http
+            initialDelaySeconds: 5
+            periodSeconds: 5
+            timeoutSeconds: 1
           volumeMounts:
             - mountPath: /bindings/secret
               name: binding
