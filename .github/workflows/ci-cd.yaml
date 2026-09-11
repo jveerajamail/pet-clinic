@@ -5,6 +5,8 @@ on:
     branches: [ main, develop ]
   pull_request:
     branches: [ main ]
+env:
+  DOCKER_IMAGE_NAME: pet-clinic
 
 jobs:
   build-and-test:
@@ -28,3 +30,21 @@ jobs:
 
       - name: Build and Test with Gradle
         run: ./gradlew build
+      # Generate a unique tag based on the commit SHA
+      - name: Prepare Image Tag
+        id: prep
+        run: echo "tag=${{ github.sha }}" >> $GITHUB_OUTPUT
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - name: Build and Push Docker Image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: ./Dockerfile
+          push: true
+          tags: |
+            ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKER_IMAGE_NAME }}:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKER_IMAGE_NAME }}:${{ github.sha }}
