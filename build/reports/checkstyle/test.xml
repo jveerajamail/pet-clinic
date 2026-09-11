@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="12.3.1">
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/MySqlIntegrationTests.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/owner/PetValidatorTests.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/PostgresIntegrationTests.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/system/CrashControllerTests.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/system/I18nPropertiesSyncTest.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/system/WelcomeControllerTests.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/system/CrashControllerIntegrationTests.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/PetClinicConcurrencyTests.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/vet/VetTests.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/MysqlTestApplication.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/service/EntityUtils.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/test/java/org/springframework/samples/petclinic/PetClinicIntegrationTests.java">
+</file>
+</checkstyle>

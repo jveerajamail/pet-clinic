@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-08-22T02:52:28.678Z" hostname="k8smaster.example.net" time="0.726">
+  <properties/>
+  <testcase name="processUpdateFormWithDuplicateName()" classname="org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors" time="0.133"/>
+  <testcase name="processUpdateFormWithDataIntegrityViolation()" classname="org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors" time="0.133"/>
+  <testcase name="processUpdateFormWithBlankName()" classname="org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors" time="0.142"/>
+  <testcase name="processUpdateFormWithInvalidBirthDate()" classname="org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors" time="0.155"/>
+  <system-out><![CDATA[2026-08-22T02:52:28.547Z  INFO 732523 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors]: ProcessUpdateFormHasErrors does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-08-22T02:52:28.579Z  INFO 732523 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors
+2026-08-22T02:52:28.582Z  INFO 732523 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors]: ProcessUpdateFormHasErrors does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-08-22T02:52:28.584Z  INFO 732523 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.PetControllerTests]: PetControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-08-22T02:52:28.611Z  INFO 732523 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.PetControllerTests$ProcessUpdateFormHasErrors
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

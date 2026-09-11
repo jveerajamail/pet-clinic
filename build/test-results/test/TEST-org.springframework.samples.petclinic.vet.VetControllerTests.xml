@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.samples.petclinic.vet.VetControllerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-08-22T02:52:39.577Z" hostname="k8smaster.example.net" time="0.461">
+  <properties/>
+  <testcase name="showResourcesVetList()" classname="org.springframework.samples.petclinic.vet.VetControllerTests" time="0.273"/>
+  <testcase name="showVetListHtml()" classname="org.springframework.samples.petclinic.vet.VetControllerTests" time="0.18"/>
+  <system-out><![CDATA[2026-08-22T02:52:38.343Z  INFO 732523 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.vet.VetControllerTests]: VetControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-08-22T02:52:38.385Z  INFO 732523 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.vet.VetControllerTests
+2026-08-22T02:52:38.387Z  INFO 732523 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.vet.VetControllerTests]: VetControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-08-22T02:52:38.408Z  INFO 732523 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.vet.VetControllerTests
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.1.0
+
+
+2026-08-22T02:52:38.481Z  INFO 732523 --- [    Test worker] o.s.s.petclinic.vet.VetControllerTests   : Starting VetControllerTests using Java 17.0.19 with PID 732523 (started by vmadmin in /home/vmadmin/pet-clinic)
+2026-08-22T02:52:38.481Z  INFO 732523 --- [    Test worker] o.s.s.petclinic.vet.VetControllerTests   : No active profile set, falling back to 1 default profile: "default"
+2026-08-22T02:52:38.856Z  WARN 732523 --- [l-1:housekeeper] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@41a68f8f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2026-08-22T02:52:39.538Z  INFO 732523 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-08-22T02:52:39.539Z  INFO 732523 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-08-22T02:52:39.543Z  INFO 732523 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2026-08-22T02:52:39.567Z  INFO 732523 --- [    Test worker] o.s.s.petclinic.vet.VetControllerTests   : Started VetControllerTests in 1.145 seconds (process running for 244.446)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

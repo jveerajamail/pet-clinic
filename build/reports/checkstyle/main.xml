@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="12.3.1">
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/owner/Visit.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/owner/package-info.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/owner/PetTypeRepository.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/owner/PetType.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/system/WebConfiguration.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/system/package-info.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/system/WelcomeController.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/system/CrashController.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/package-info.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/PetClinicRuntimeHints.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/model/package-info.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/model/Person.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/vet/Specialty.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/vet/package-info.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/vet/Vets.java">
+</file>
+<file name="/home/vmadmin/pet-clinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java">
+</file>
+</checkstyle>

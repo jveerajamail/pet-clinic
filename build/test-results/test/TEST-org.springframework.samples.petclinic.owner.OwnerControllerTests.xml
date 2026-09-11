@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.samples.petclinic.owner.OwnerControllerTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-08-22T02:52:24.551Z" hostname="k8smaster.example.net" time="1.874">
+  <properties/>
+  <testcase name="processUpdateOwnerFormUnchangedSuccess()" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.258"/>
+  <testcase name="showOwner()" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.405"/>
+  <testcase name="processFindFormWithWhitespaceOnlyLastNameReturnsAllOwners()" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.182"/>
+  <testcase name="processUpdateOwnerFormSuccess()" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.055"/>
+  <testcase name="processUpdateOwnerFormWithIdMismatch()" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.056"/>
+  <testcase name="processCreationFormSuccess()" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.062"/>
+  <testcase name="processFindFormIgnoresSurroundingWhitespace()" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.065"/>
+  <testcase name="processFindFormSuccess()" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.091"/>
+  <testcase name="processUpdateOwnerFormHasErrors()" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.113"/>
+  <testcase name="initUpdateOwnerForm()" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.073"/>
+  <testcase name="processFindFormNoOwnersFound()" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.089"/>
+  <testcase name="processFindFormByLastName()" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.039"/>
+  <testcase name="initCreationForm()" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.068"/>
+  <testcase name="processCreationFormHasErrors()" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.072"/>
+  <testcase name="initFindForm()" classname="org.springframework.samples.petclinic.owner.OwnerControllerTests" time="0.054"/>
+  <system-out><![CDATA[2026-08-22T02:52:22.292Z  INFO 732523 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.OwnerControllerTests]: OwnerControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-08-22T02:52:22.367Z  INFO 732523 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.OwnerControllerTests
+2026-08-22T02:52:22.371Z  INFO 732523 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [org.springframework.samples.petclinic.owner.OwnerControllerTests]: OwnerControllerTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-08-22T02:52:22.389Z  INFO 732523 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration org.springframework.samples.petclinic.PetClinicApplication for test class org.springframework.samples.petclinic.owner.OwnerControllerTests
+
+
+              |\      _,,,--,,_
+             /,`.-'`'   ._  \-;;,_
+  _______ __|,4-  ) )_   .;.(__`'-'__     ___ __    _ ___ _______
+ |       | '---''(_/._)-'(_\_)   |   |   |   |  |  | |   |       |
+ |    _  |    ___|_     _|       |   |   |   |   |_| |   |       | __ _ _
+ |   |_| |   |___  |   | |       |   |   |   |       |   |       | \ \ \ \
+ |    ___|    ___| |   | |      _|   |___|   |  _    |   |      _|  \ \ \ \
+ |   |   |   |___  |   | |     |_|       |   | | |   |   |     |_    ) ) ) )
+ |___|   |_______| |___| |_______|_______|___|_|  |__|___|_______|  / / / /
+ ==================================================================/_/_/_/
+
+:: Built with Spring Boot :: 4.1.0
+
+
+2026-08-22T02:52:22.469Z  INFO 732523 --- [    Test worker] o.s.s.p.owner.OwnerControllerTests       : Starting OwnerControllerTests using Java 17.0.19 with PID 732523 (started by vmadmin in /home/vmadmin/pet-clinic)
+2026-08-22T02:52:22.470Z  INFO 732523 --- [    Test worker] o.s.s.p.owner.OwnerControllerTests       : No active profile set, falling back to 1 default profile: "default"
+2026-08-22T02:52:24.453Z  INFO 732523 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-08-22T02:52:24.454Z  INFO 732523 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-08-22T02:52:24.459Z  INFO 732523 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 4 ms
+2026-08-22T02:52:24.519Z  INFO 732523 --- [    Test worker] o.s.s.p.owner.OwnerControllerTests       : Started OwnerControllerTests in 2.108 seconds (process running for 229.398)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
