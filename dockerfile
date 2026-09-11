@@ -6,8 +6,7 @@ WORKDIR /app
 
 # Step 3: Copy the compiled .jar package into the container
 # Note: Spring Boot projects usually name their output target/*.jar or build/libs/*.jar
-COPY target/*.jar app.jar
-
+COPY build/libs/*.jar app.jar
 # Step 4: Expose the port (Spring Boot default is 8080)
 EXPOSE 8080
 
