@@ -48,3 +48,30 @@ jobs:
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKER_IMAGE_NAME }}:latest
             ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.DOCKER_IMAGE_NAME }}:${{ github.sha }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max  
+      - name: Set up Kubeconfig
+        uses: azure/k8s-set-context@v4
+        with:
+          method: kubeconfig
+          kubeconfig: ${{ secrets.KUBECONFIG_DATA }}
+      - name: Deploy to Kubernetes Cluster
+        run: |
+          # 1. Apply the Secret, Service, and Deployment for PostgreSQL
+          kubectl apply -f k8s/db.yml
+
+          # 2. Dynamic tracking: Wait for Postgres to accept traffic via its readiness probe
+          echo "Waiting for demo-db database pods to be healthy..."
+          kubectl wait --namespace=default \
+            --for=condition=ready pod \
+            --selector=app=demo-db \
+            --timeout=120s
+
+          # 3. Swap the default template image text with your freshly built Docker image
+          sed -i 's|image: dsyer/petclinic|image: '"${{ secrets.DOCKERHUB_USERNAME }}/pet-clinic:${{ github.sha }}"'|g' k8s/petclinic.yml
+
+          # 4. Deploy your app manifests safely now that the DB backend is live
+          kubectl apply -f k8s/petclinic.yml
+
+          # 5. Block the pipeline runner until Spring Boot passes its /readyz health checking
+          kubectl rollout status deployment/petclinic --timeout=180s
